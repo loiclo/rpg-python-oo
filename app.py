@@ -6,7 +6,7 @@ class RPG_GAME:
         self.defense_points = defense_points
 
     def attack(self, other):
-        damage_reduction = 1 - (other.defense * 0.003) # 1 point de défense annule 0,3% de dégâts
+        damage_reduction = 1 - (other.defense_points * 0.003) # 1 point de défense annule 0,3% de dégâts
         damage = max(0, self.attack_points * damage_reduction) # Appliquer la réduction sur les dégâts
         other.health -= damage # Appliquer la réduction sur les dégâts
         print(f"{self.name} attacked {other.name} for {damage} damages !")
