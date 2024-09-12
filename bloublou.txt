@@ -1,0 +1,7 @@
+
+
+# hero = RPG_GAME("Hero", 100, 20, 5)  # 5 points de défense
+# evil = RPG_GAME("Evil", 100, 15, 8)  # 8 points de défense
+
+# hero.attack(evil)  # Le héros attaque le méchant
+# evil.attack(hero)  # Le méchant attaque le héros
